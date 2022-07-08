@@ -1,6 +1,6 @@
 resource "null_resource" "example1" {
   provisioner "local-exec" {
-    command = "echo $FOO $BAR $BAZ >> env_vars.txt"
+    command = "echo $FOO $BAR $BAZ mantap >> env_vars.txt"
 
     environment = {
       FOO = "bar"
